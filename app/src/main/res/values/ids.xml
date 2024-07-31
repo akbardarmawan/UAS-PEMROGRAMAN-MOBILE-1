@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleImg" type="id" />
+    <item name="subTitle" type="id" />
+    <item name="viewView" type="id" />
+    <item name="tv_login_title" type="id" />
+    <item name="tv_login_sub_title" type="id" />
+    <item name="til_email" type="id" />
+    <item name="et_email" type="id" />
+    <item name="til_password" type="id" />
+    <item name="et_password" type="id" />
+    <item name="tv_forgot_pw" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="tv_havent_account" type="id" />
+</resources>

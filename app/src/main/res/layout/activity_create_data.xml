@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateData">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <EditText
+            android:id="@+id/title"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Masukan Titile" />
+        <EditText
+            android:id="@+id/desc"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Masukan Description" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#E7F0DC"
+            android:contentDescription="Gambar yang di pilih"/>
+        <Button
+            android:id="@+id/btnChooseImage"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#088395"
+            android:text="Pick Image"/>
+        <Button
+            android:id="@+id/btnSumbit"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#059212"
+            android:text="SAVE"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
